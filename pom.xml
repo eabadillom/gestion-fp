@@ -41,4 +41,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>gestion-fp</name>
+			<url>https://maven.pkg.github.com/eabadillom/gestion-fp</url>
+		</repository>
+	</distributionManagement>
 </project>
